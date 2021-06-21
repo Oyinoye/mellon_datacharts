@@ -1,0 +1,102 @@
+.app{
+  width: 100%;
+  display: flex;
+}
+
+.my-charts{
+  width: 80%;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+.sidebar{
+  width: 16%;
+  /* margin-right: 50px; */
+  height: 100vh;
+  background: rgb(0, 21, 139) !important;
+  background-color: rgb(5, 0, 73) !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sidebar ul, .sidebar li {
+ background: #fff !important;
+  background-color: rgb(5, 0, 73) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.sidebar ul{
+  list-style: none;
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  height: 50%;
+  width: 100%;
+  padding: 0;
+
+}
+.sidebar ul li {
+  padding: 20px;
+  transition: all 0.3s ease-out;
+}
+
+.sidebar ul a {
+  background: none !important;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sidebar ul li:hover{
+  background:rgb(4, 245, 205) !important;
+  color: #000 !important;
+
+}
+
+.rdt_TableCol_Sortable{
+ background: none !important
+}
+
+.rdt_TableHeadRow > div{
+    background: rgba(4, 245, 205, 0.438) !important;
+  background-color: rgba(4, 245, 205, 0.438) !important;
+}
+.rdt_TableHeadRow >div > div >div {
+  color: rgb(0, 0, 0) !important;
+  background: none !important;
+}
+
+#east #west #south #central #regional {
+  margin-bottom: 240px;
+}
+
+#east > div {
+  display: flex;
+  align-content: space-between;
+  padding: 3rem;
+  margin-bottom: 2rem;
+}
+
+#west > div{
+  display: flex;
+}
+
+#south > div{
+  display: flex;
+}
+
+#central > div{
+  display: flex;
+}
+
+#regional > div{
+  display: flex;
+}
+
+.loading {
+  display: block !important;
+}
