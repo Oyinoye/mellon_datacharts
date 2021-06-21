@@ -600,7 +600,7 @@ function App() {
                 width: 380,
                 type: 'pie',
               },
-              labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+              labels: ['West', 'East', 'South', 'Central'],
               responsive: [{
                 breakpoint: 480,
                 options: {
@@ -622,7 +622,7 @@ function App() {
                 width: 380,
                 type: 'pie',
               },
-              labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+              labels: ['West', 'East', 'South', 'Central'],
               responsive: [{
                 breakpoint: 480,
                 options: {
@@ -645,7 +645,7 @@ function App() {
                 width: 380,
                 type: 'pie',
               },
-              labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+              labels: ['West', 'East', 'South', 'Central'],
               responsive: [{
                 breakpoint: 480,
                 options: {
@@ -692,7 +692,7 @@ function App() {
                 width: 380,
                 type: 'pie',
               },
-              labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+              labels: ['West', 'East', 'South', 'Central'],
               responsive: [{
                 breakpoint: 480,
                 options: {
@@ -714,7 +714,7 @@ function App() {
                 width: 380,
                 type: 'pie',
               },
-              labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+              labels: ['West', 'East', 'South', 'Central'],
               responsive: [{
                 breakpoint: 480,
                 options: {
@@ -737,7 +737,7 @@ function App() {
                 width: 380,
                 type: 'pie',
               },
-              labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+              labels: ['West', 'East', 'South', 'Central'],
               responsive: [{
                 breakpoint: 480,
                 options: {
